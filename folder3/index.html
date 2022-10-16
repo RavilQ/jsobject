@@ -1,0 +1,164 @@
+*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <script>
+        function coolor(params) {
+            
+        }
+    </script>
+</head>
+<body style="background-image: url(https://wallpapercrafter.com/sizes/2560x1440/7056-texture-black-background-4k.jpg);">
+
+   
+    
+    
+   
+   
+    
+    <div class="form container">
+
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active teest" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item dropdown">
+              <!-- <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul> -->
+
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle dropdown1 teest" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                 <span> Add film</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                  <div class="form-control inputs teest">
+                    <label for="inputname">Name</label>
+                    <input class="form-control inputs-txt" type="text" id="inputname">
+                  </div>
+                  <div class="form-control inputs teest">
+                    <label for="inputname">Info</label>
+                    <input class="form-control inputs-txt" type="text" id="inputinfo">
+                  </div>
+                  <div class="form-control inputs teest">
+                    <label for="inputname">Raiting</label>
+                    <input class="form-control inputs-txt" type="text" id="inputraiting">
+                  </div>
+                  <div class="form-control inputs teest">
+                    <label for="inputname">URL</label>
+                     <input class="form-control inputs-txt" type="text" id="inputurl">
+                     <button onclick="create()" class="btn btn-success button teest">Yarat</button>
+                  </div>
+                  
+                </ul>
+              </div>
+        
+
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link color-white" href="#">Link</a> -->
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle dropdown1 teest" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                  Change color
+                </button>
+                <ul class="dropdown-menu ul-stylle" aria-labelledby="dropdownMenuButton">
+                  <li>
+                    <button class="color-btttons btn-background-colors1" id="color1">
+                      green
+                    </button>
+                  
+                  </li>
+                  <li>
+                    <button class="color-btttons btn-background-colors2" id="color2">
+                       blue
+                    </button>
+                  </li>
+                  <li>
+                    <button class="color-btttons btn-background-colors3" id="color3">
+                        dark
+                    </button>
+                  </li>
+                  <li>
+                    <button class="color-btttons btn-background-colors4" id="color4">
+                      brown
+                    </button>
+                  </li>
+                  <li>
+                    <button class="color-btttons btn-background-colors5" id="color5">
+                      light
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item teest">
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle dropdown1 teest" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                  Change image
+                </button>
+                <ul class="dropdown-menu ul-stylle" aria-labelledby="dropdownMenuButton">
+                  <li>
+                    <button class="color-btttons btn-background-colors12" id="imagee1">
+                      Cubs
+                    </button>
+                  
+                  </li>
+                  <li>
+                    <button class="color-btttons btn-background-colors12" id="imagee2">
+                       Web
+                    </button>
+                  </li>
+                  <li>
+                    <button class="color-btttons btn-background-colors12" id="imagee3">
+                        Blocks
+                    </button>
+                  </li>
+                  <li>
+                    <button class="color-btttons btn-background-colors12" id="imagee4">
+                      Deep Sky
+                    </button>
+                  </li>
+                  <li>
+                    <button class="color-btttons btn-background-colors12" id="imagee5">
+                      Electro
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+        </ul>
+
+
+
+        
+       
+      
+    </div>
+    <div class="container mt-5 hover2">
+        <div class="row" id="box">
+          
+        </div>
+
+    
+    </div>
+
+ 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="assets/js/main.js"></script>
+</body>
+</html>
